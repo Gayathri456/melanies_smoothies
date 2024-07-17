@@ -17,7 +17,6 @@ st.write("The name on your Smoothie will be", name_on_order)
 
 #st.write("Your favorite fruit is:", option)
 
-from snowflake.snowpark.functions import col
 
 #session = get_active_session()
 cnx = st.connection("snowflake")
